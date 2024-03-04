@@ -33,7 +33,7 @@ public class Heap {
      */
     private int leftChildIndex(int index){
         if (valueList.size() > (2*index)-1){
-            return (2*(index)-1);
+            return (2*(index)+1);
         }
         else return -1;
     }
